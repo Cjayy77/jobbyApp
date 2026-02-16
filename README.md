@@ -1,7 +1,7 @@
 
 # Jobby
 
-Jobby is a job search and posting application built with Flutter, designed specifically for the Cameroon job market. It allows job seekers to find and apply for jobs, and employers to post and manage job listings, all in one place.
+Jobby is a job search and posting application built with Flutter, designed specifically for any job market(by changing the currency of job posting fees). It allows job seekers to find and apply for jobs, and employers to post and manage job listings, all in one place.
 
 ## Features
 
