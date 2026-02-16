@@ -1,16 +1,58 @@
-# jobby
 
-A new Flutter project.
+# Jobby
+
+Jobby is a job search and posting application built with Flutter, designed specifically for the Cameroon job market. It allows job seekers to find and apply for jobs, and employers to post and manage job listings, all in one place.
+
+## Features
+
+- User authentication (job seekers & employers)
+- Browse, search, and filter job listings
+- Apply for jobs with cover letter and resume
+- Save jobs for later
+- Employer dashboard to post and manage jobs
+- Real-time notifications
+- User profiles and job preferences
+- Firebase integration (Auth, Firestore, Storage, Analytics)
+- Mobile ads integration
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Dart SDK (included with Flutter)
+- A Firebase project (see below)
 
-A few resources to get you started if this is your first Flutter project:
+### Setup
+1. Clone this repository:
+	```sh
+	git clone https://github.com/yourusername/jobby.git
+	cd jobby
+	```
+2. Install dependencies:
+	```sh
+	flutter pub get
+	```
+3. Configure Firebase:
+	- Follow the [FlutterFire documentation](https://firebase.flutter.dev/docs/overview/) to set up Firebase for Android, iOS, and web.
+	- Download your `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) and place them in the appropriate directories.
+	- Update `lib/src/core/config/firebase_options.dart` if needed.
+4. Run the app:
+	```sh
+	flutter run
+	```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Project Structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `lib/` - Main Dart source code
+  - `src/features/` - App features (auth, job, profile, etc.)
+  - `src/core/` - Core utilities, theme, routing, config
+- `android/`, `ios/`, `web/`, `linux/`, `macos/`, `windows/` - Platform-specific code
+- `test/` - Unit and widget tests
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
