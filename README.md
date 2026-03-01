@@ -21,6 +21,7 @@ Jobby is a job search and posting application built with Flutter, designed speci
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)
 - Dart SDK (included with Flutter)
 - A Firebase project (see below)
+- Google Cloud/ Apple Auth Modules
 
 ### Setup
 1. Clone this repository:
