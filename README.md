@@ -5,15 +5,15 @@ Jobby is a job search and posting application built with Flutter, designed speci
 
 ## Features
 
-- User authentication (job seekers & employers)
-- Browse, search, and filter job listings
-- Apply for jobs with cover letter and resume
-- Save jobs for later
-- Employer dashboard to post and manage jobs
-- Real-time notifications
-- User profiles and job preferences
-- Firebase integration (Auth, Firestore, Storage, Analytics)
-- Mobile ads integration
+- [ ]User authentication (job seekers & employers)
+- [ ]Browse, search, and filter job listings
+- [ ]Apply for jobs with cover letter and resume
+- [ ]Save jobs for later
+- [ ]Employer dashboard to post and manage jobs
+- [ ]Real-time notifications
+- [ ]User profiles and job preferences
+- [ ]Firebase integration (Auth, Firestore, Storage, Analytics)
+- [ ]Mobile ads integration
 
 ## Getting Started
 
