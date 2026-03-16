@@ -52,7 +52,7 @@ Jobby is a job searching and posting application built with Flutter, designed sp
 
 ## Contributing
 
-Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
+Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes .
 
 ## License
 
