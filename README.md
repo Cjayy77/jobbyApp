@@ -15,7 +15,7 @@ Jobby is a job searching and posting application built with Flutter, designed sp
 - [ ]Firebase integration (Auth, Firestore, Storage, Analytics)
 - [ ]Mobile ads integration
 
-## Getting Started
+## Getting Started 
 
 ### Prerequisites
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)
